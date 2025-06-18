@@ -1,0 +1,12 @@
+{
+  "name": "zaw-starter-zig",
+  "version": "0.1.0",
+  "private": true,
+  "description": "zaw starter template with Zig WASM and TypeScript",
+  "scripts": {
+    "install": "./zig/install.sh && npm install --prefix typescript",
+    "build": "./zig/build.sh && npm run build --prefix typescript",
+    "test": "npm run build && npm run test --prefix typescript",
+    "bench": "npm run build && npm run bench --prefix typescript"
+  }
+}

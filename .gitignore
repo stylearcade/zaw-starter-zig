@@ -1,0 +1,12 @@
+# Zig
+/zig/.zig-cache/
+/zig/zig-out/
+
+# Node.js
+/node_modules/
+/typescript/node_modules/
+/typescript/dist/
+/typescript/package-lock.json
+
+# Logs
+*.log
