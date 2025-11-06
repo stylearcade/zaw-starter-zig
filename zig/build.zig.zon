@@ -3,13 +3,12 @@
     .version = "0.0.1",
     .dependencies = .{
         .zaw = .{
-            .url = "https://github.com/stylearcade/zaw/releases/download/zig-v0.0.1/zaw-wasm.tar.gz",
-            .hash = "zaw-0.0.1-hsxxOabsAAD2DA7dnf7qboxbKCQQUY86_KU3ag7ju3Ib",
+            .url = "https://github.com/stylearcade/zaw/releases/download/zig-v0.0.3/zaw-wasm.tar.gz",
+            .hash = "zaw-0.0.1-hsxxOXrrAAAgZluzk5Qvv94yW24gxKhOLcLIbvvc5qn-",
         },
     },
     .fingerprint = 0x7dd868a0600eeecb,
-    .minimum_zig_version = "0.14.0",
-    .maximum_zig_version = "0.14.0",
+    .minimum_zig_version = "0.15.0",
     .paths = .{
         "build.zig",
         "build.zig.zon",

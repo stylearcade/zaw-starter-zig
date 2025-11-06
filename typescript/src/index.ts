@@ -18,7 +18,7 @@ export async function initExample(wasmBuffer: Buffer): Promise<ExampleAPI> {
   return {
     xorInt32Array: instance.bind(
       instance.exports.xorInt32Array,
-      (input, [values]) => input.copyInt32Array(values),
+      (input, values) => input.copyInt32Array(values),
       output => output.readInt32(),
     ),
   }

@@ -4,12 +4,12 @@
   "description": "TypeScript example with SIMD XOR operations",
   "scripts": {
     "build": "tsc",
-    "test": "vitest",
+    "test": "vitest run --mode=test",
     "bench": "vitest bench --run",
     "lint": "prettier --write \"**/*.ts\""
   },
   "dependencies": {
-    "zaw": "^0.0.1"
+    "zaw": "0.0.4"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
